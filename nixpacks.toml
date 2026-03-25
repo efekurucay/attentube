@@ -1,5 +1,5 @@
 [phases.build]
-cmds = ["npm run build"]
+cmds = ["npm install && npm run build"]
 
 [start]
-cmd = "npx serve dist -l 80 --no-clipboard"
+cmd = "npx serve -s dist -l tcp://0.0.0.0:3000"
