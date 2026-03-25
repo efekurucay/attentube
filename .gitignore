@@ -1,0 +1,28 @@
+# Environment — NEVER commit API keys
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (if used for tooling)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Runtime API config (contains secrets)
+config.js
