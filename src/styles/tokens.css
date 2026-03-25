@@ -80,7 +80,6 @@
 /* ============================================================
    DARK MODE (default theme for focus/productivity)
    ============================================================ */
-[data-theme="dark"],
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --color-bg:              #111110;

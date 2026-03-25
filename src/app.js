@@ -8,8 +8,8 @@
  */
 
 import { searchVideos } from './utils/youtube.js';
-import { Config } from './utils/config.js';
 import { VideoCard } from './components/VideoCard.js';
+import { Config } from './utils/config.js';
 import { VideoPlayer } from './components/VideoPlayer.js';
 import { SearchForm } from './components/SearchForm.js';
 
